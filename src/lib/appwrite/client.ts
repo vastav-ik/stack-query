@@ -1,4 +1,5 @@
 import { Client, Account, Databases, Storage, Avatars } from "appwrite";
+
 import env from "@/lib/env";
 
 const client = new Client().setEndpoint(env.endpoint).setProject(env.projectId);
