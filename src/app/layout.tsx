@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { client } from "@/lib/appwrite";
+
+client
+  .ping()
+  .then(() => console.log("Appwrite connection verified"))
+  .catch((err) => console.error("Appwrite connection failed", err));
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
