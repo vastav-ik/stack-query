@@ -1,0 +1,3 @@
+﻿.next/dev/types/validator.ts(103,31): error TS2344: Type 'typeof import("C:/Users/luaip/OneDrive/Desktop/StackClone/stack-query/src/app/(auth)/layout")' does not satisfy the constraint 'LayoutConfig<"/">'.
+  Property 'default' is missing in type 'typeof import("C:/Users/luaip/OneDrive/Desktop/StackClone/stack-query/src/app/(auth)/layout")' but required in type 'LayoutConfig<"/">'.
+src/app/api/vote/route.ts(88,35): error TS2339: Property 'voteType' does not exist on type 'never'.
